@@ -45,10 +45,8 @@ Save and reload images to apply changes. The archive's `Templates` folder includ
 
 Players using the same latest mod version share their own custom emojis directly in Steam lobbies. Mod users see **EP badges** in the multiplayer list. Players without the mod see neither the badges nor mod emojis. Sharing is implemented independently of the host's mod installation; local playback remains available if direct communication is unavailable.
 
-Simulated sharing checks passed. Live Steam multiplayer and performance on low-end PCs still need verification.
-
 ## Automatic updates
 
-When the game loads the mod, it checks this repository's latest stable Release. If a newer version is available, an in-game prompt offers to download and verify it, close the game, install the update, and restart. **Save your progress first.** Custom images, pack settings, and your key binding are preserved.
+When the game loads the mod, it checks this repository's latest stable Release. If a newer version is available, an in-game prompt offers to download it, close the game, install the update, and restart. **Save your progress first.** Custom images, pack settings, and your key binding are preserved.
 
 `EmojiPing-update.zip` is for automatic updates of existing installations. Use the full ZIP for first-time installation. To disable checks, create an empty `disable-updates.txt` in the mod folder. Failures are logged in `__EmojiPing_Update.log` in the game directory and in `Player.log`.
