@@ -2,11 +2,11 @@
 
 [한국어](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
-这是一个为《Sephiria》添加角色头顶表情的模组。支持游戏原有的5种表情，以及玩家自制的PNG动画。当前公开版本为 **1.0.1**。
+这是一个为《Sephiria》添加角色头顶表情的模组。支持游戏原有的5种表情，以及玩家自制的PNG动画。当前公开版本为 **1.0.2**。
 
 ## 安装
 
-从 [Releases](https://github.com/TaeHyun015/EmojiPing/releases) 下载 **EmojiPing-1.0.1.zip**。关闭游戏，将ZIP内的 `AddOns/EmojiPing` 文件夹复制到游戏的 `AddOns` 目录，再启动游戏。手动更新时请保留已有的 `pack.json` 和 `Images`。本模组使用游戏内置的模组加载器，无需BepInEx。
+从 [Releases](https://github.com/TaeHyun015/EmojiPing/releases) 下载 **EmojiPing-1.0.2.zip**。关闭游戏，将ZIP内的 `AddOns/EmojiPing` 文件夹复制到游戏的 `AddOns` 目录，再启动游戏。手动更新时请保留已有的 `pack.json` 和 `Images`。本模组使用游戏内置的模组加载器，无需BepInEx。
 
 ## 使用方法
 

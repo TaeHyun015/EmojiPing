@@ -2,11 +2,11 @@
 
 [한국어](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
-A Sephiria mod that displays an emoji centered above your character's head. Includes five original game emojis and supports custom PNG animations. Current public version: **1.0.1**.
+A Sephiria mod that displays an emoji centered above your character's head. Includes five original game emojis and supports custom PNG animations. Current public version: **1.0.2**.
 
 ## Installation
 
-Download **EmojiPing-1.0.1.zip** from [Releases](https://github.com/TaeHyun015/EmojiPing/releases). Close the game, copy the archive's `AddOns/EmojiPing` folder into the game's `AddOns` directory, and launch the game. Preserve your existing `pack.json` and `Images` when updating manually. Uses the game's built-in mod loader; BepInEx is not required.
+Download **EmojiPing-1.0.2.zip** from [Releases](https://github.com/TaeHyun015/EmojiPing/releases). Close the game, copy the archive's `AddOns/EmojiPing` folder into the game's `AddOns` directory, and launch the game. Preserve your existing `pack.json` and `Images` when updating manually. Uses the game's built-in mod loader; BepInEx is not required.
 
 ## How to use
 

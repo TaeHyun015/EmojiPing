@@ -2,11 +2,11 @@
 
 [한국어](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
-キャラクターの頭上中央に絵文字を表示する『Sephiria』用MODです。ゲーム本来の絵文字5種類と、ユーザー制作のPNGアニメーションに対応しています。現在の公開バージョンは **1.0.1** です。
+キャラクターの頭上中央に絵文字を表示する『Sephiria』用MODです。ゲーム本来の絵文字5種類と、ユーザー制作のPNGアニメーションに対応しています。現在の公開バージョンは **1.0.2** です。
 
 ## インストール
 
-[Releases](https://github.com/TaeHyun015/EmojiPing/releases)から **EmojiPing-1.0.1.zip** をダウンロードします。ゲームを終了し、ZIP内の `AddOns/EmojiPing` フォルダーをゲームの `AddOns` フォルダーにコピーしてから起動してください。手動更新時は既存の `pack.json` と `Images` を保持してください。ゲーム内蔵のMODローダーを使用するため、BepInExは不要です。
+[Releases](https://github.com/TaeHyun015/EmojiPing/releases)から **EmojiPing-1.0.2.zip** をダウンロードします。ゲームを終了し、ZIP内の `AddOns/EmojiPing` フォルダーをゲームの `AddOns` フォルダーにコピーしてから起動してください。手動更新時は既存の `pack.json` と `Images` を保持してください。ゲーム内蔵のMODローダーを使用するため、BepInExは不要です。
 
 ## 使い方
 

@@ -2,11 +2,11 @@
 
 [한국어](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
-캐릭터 머리 위 중앙에 이모지를 표시하는 세피리아 모드입니다. 게임 원본 이모지 5종과 사용자 제작 PNG 애니메이션을 지원합니다. 현재 공개 버전은 **1.0.1**입니다.
+캐릭터 머리 위 중앙에 이모지를 표시하는 세피리아 모드입니다. 게임 원본 이모지 5종과 사용자 제작 PNG 애니메이션을 지원합니다. 현재 공개 버전은 **1.0.2**입니다.
 
 ## 설치
 
-[Releases](https://github.com/TaeHyun015/EmojiPing/releases)에서 **EmojiPing-1.0.1.zip**을 다운로드하세요. 게임을 종료하고 ZIP의 `AddOns/EmojiPing` 폴더를 게임 설치 폴더의 `AddOns`에 복사한 뒤 게임을 실행합니다. 업데이트 시 기존 `pack.json`과 `Images` 폴더를 보존하세요. 게임 기본 모드 로더를 사용하며 BepInEx는 필요하지 않습니다.
+[Releases](https://github.com/TaeHyun015/EmojiPing/releases)에서 **EmojiPing-1.0.2.zip**을 다운로드하세요. 게임을 종료하고 ZIP의 `AddOns/EmojiPing` 폴더를 게임 설치 폴더의 `AddOns`에 복사한 뒤 게임을 실행합니다. 업데이트 시 기존 `pack.json`과 `Images` 폴더를 보존하세요. 게임 기본 모드 로더를 사용하며 BepInEx는 필요하지 않습니다.
 
 ## 사용법
 
