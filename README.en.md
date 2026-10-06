@@ -2,11 +2,11 @@
 
 [한국어](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
-A Sephiria mod that displays an emoji centered above your character's head. Includes five original game emojis and supports custom PNG animations. Current public version: **1.0.2**.
+A Sephiria mod that displays an emoji centered above your character's head. Includes five original game emojis and supports custom PNG animations. Current public version: **1.0.3**.
 
 ## Installation
 
-Download **EmojiPing-1.0.2.zip** from [Releases](https://github.com/TaeHyun015/EmojiPing/releases). Close the game, copy the archive's `AddOns/EmojiPing` folder into the game's `AddOns` directory, and launch the game. Preserve your existing `pack.json` and `Images` when updating manually. Uses the game's built-in mod loader; BepInEx is not required.
+Download **EmojiPing-1.0.3.zip** from [Releases](https://github.com/TaeHyun015/EmojiPing/releases). Close the game, copy the archive's `AddOns/EmojiPing` folder into the game's `AddOns` directory, and launch the game. Preserve your existing `pack.json` and `Images` when updating manually. Uses the game's built-in mod loader; BepInEx is not required.
 
 ## How to use
 
@@ -16,8 +16,8 @@ Download **EmojiPing-1.0.2.zip** from [Releases](https://github.com/TaeHyun015/E
 
 Five slots form a regular pentagon, with a bright border on the selected slot. Other counts are arranged automatically. The game's middle-click ping remains available.
 
-- Change the key in **Settings → Keyboard → Emoji selection (EP)**.
-- Reload images through **Emoji images (EP) → Reload** in the same tab, or **Ctrl + your emoji key**. Setting labels may appear in Korean.
+- Change the key in **Settings → Keyboard → Emoji key (EP)**.
+- Reload images through **Emoji images (EP) → Reload** in the same tab, or **Ctrl + your emoji key**.
 - Default display duration: 2.5 seconds; cooldown: 0.75 seconds.
 
 ## Custom emojis
@@ -50,3 +50,11 @@ Players using the same latest mod version share their own custom emojis directly
 When the game loads the mod, it checks this repository's latest stable Release. If a newer version is available, an in-game prompt offers to download it, close the game, install the update, and restart. **Save your progress first.** Custom images, pack settings, and your key binding are preserved.
 
 `EmojiPing-update.zip` is for automatic updates of existing installations. Use the full ZIP for first-time installation. To disable checks, create an empty `disable-updates.txt` in the mod folder. Failures are logged in `__EmojiPing_Update.log` in the game directory and in `Player.log`.
+
+## Languages and translation files
+
+Settings, key-binding prompts, status notices and update popups follow the game's selected language. All 15 built-in languages are supported: Korean, English, Japanese, Simplified and Traditional Chinese, German, Spanish, French, Italian, Polish, Brazilian Portuguese, Russian, Swedish, Thai and Turkish.
+
+The mod's `Localization` folder contains a JSON file per language, such as `en-US.json`, `ja-JP.json` and `zh-CN.json`. Edit the text values while preserving keys and placeholders such as `{0}` and `{1}`. Apply changes through **Emoji images (EP) → Reload** or by restarting. Changing the game language switches the text immediately. Missing or invalid files use bundled translations; unknown languages and missing entries fall back to English.
+
+Automatic updates create missing translation files and preserve existing edits. Preserve `Localization` during manual updates as well. Completed automatic-update work and backup folders are cleaned after the mod loads. Failed or unfinished jobs remain available for recovery.
